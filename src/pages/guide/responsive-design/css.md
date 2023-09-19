@@ -101,7 +101,7 @@ For grouping style rules in certain media queries the `.media-width()` mixin use
 //  _____________________________________________
 
 // This will add styles for tablet devices. When using native media-queries, we recommend wrapping your media-queries with media-width mixins or media-target
-& when (@media-target = 'desktop'), (@media-target = 'all') {
+& when (@media-target = 'tablet'), (@media-target = 'all') {
     @media only screen and (min-width: @screen__m) and (max-width: (@screen__xl - 1)) {
         // styles for breakpoint >= 768px and < 1440px
     }
